@@ -7,4 +7,4 @@ Submarine Cable Map GIS
 - Andika Ahmad Ramadhan
 - Ananda Najahudin Ahmad
 - Ardian Kristya
-- Faza
+- Hafiyyan Faza Santoso
