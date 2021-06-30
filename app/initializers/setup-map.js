@@ -32,7 +32,6 @@ export function initialize(application) {
     application.set('search', new SubmarineCable.Search());
     application.advanceReadiness();
   });
-
 }
 
 export default {

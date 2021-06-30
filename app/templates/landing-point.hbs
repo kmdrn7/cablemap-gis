@@ -1,7 +1,6 @@
 {{#link-to "index" id="allCables"}}Submarine Cable List{{/link-to}}
 <h2 id="name">{{model.name}}</h2>
-<a class="email-link" href="mailto:?Subject=TeleGeography%20Submarine%20Cable%20Map&Body=" onclick="this.href=this.href+window.location.href;">Email link</a>
-<div id="description">
+<div id="description" style="margin-top: 15px;">
 	<h3>Cables</h3>
 	<ul class="features">
 		{{#each model.cables as |cable|}}

@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'submarinecablemap-dot-com',
+    modulePrefix: 'cablemap-gis',
     environment,
     rootURL: '/',
     locationType: 'hash',

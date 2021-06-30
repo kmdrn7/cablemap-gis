@@ -1,8 +1,8 @@
 {
-  "name": "submarinecablemap-dot-com",
+  "name": "cablemap-gis",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for submarinecablemap-dot-com goes here",
+  "description": "",
   "repository": "",
   "license": "MIT",
   "author": "",
@@ -14,8 +14,7 @@
     "build": "ember build",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
-    "start": "ember serve",
-    "test": "ember test"
+    "start": "ember serve"
   },
   "devDependencies": {
     "@ember/jquery": "^0.5.2",

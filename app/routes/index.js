@@ -13,8 +13,5 @@ export default Route.extend({
       }
       controller.set("model",  data);
     });
-
   }
-
-
 });
