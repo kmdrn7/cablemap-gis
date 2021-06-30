@@ -1,6 +1,6 @@
 body { font-family:Helvetica, Arial; min-width:320px; }
 
-h1, h2, h3, h4 {font-weight:normal; font-size:24px; color:#052743; padding:0; margin:0; }
+h1, h2, h3, h4 {font-weight:normal; font-size:24px; color:#707375; padding:0; margin:0; }
 h2, h3 {font-size:16px; padding: 0 0 12px 0;}
 h3 {font-size:14px; padding:0 0 9px 0;}
 
@@ -9,7 +9,7 @@ h3 {font-size:14px; padding:0 0 9px 0;}
 #side_bar, #search, div.infoBoxContent, #updated-on { font-size: 12px; color:#404040;}
 #side_bar { position:absolute; top:0; right:0; width:342px;height:100%;overflow-y:auto;overflow-x:hidden; line-height:18px; -webkit-box-shadow:0 0 1px 1px rgba(0,0,0,0.1); -moz-box-shadow:0 0 1px 1px rgba(0,0,0,0.1); box-shadow:0 0 1px 1px rgba(0,0,0,0.1);}
 #header, #content {width:306px;padding:0 18px 0 18px;}
-#header, #header-portrait {padding:22px 18px 9px 18px; border-top:2px solid #0D71BA;}
+#header, #header-portrait {padding:22px 18px 9px 18px; border-top:2px solid #595861;}
 #header-portrait { padding:9px 9px 8px 9px; border-bottom:1px solid #e5e5e5; }
 #telegeography-logo-portrait { width:62px; height:12px; margin-bottom:1px; background:url(images/telegeography-logo-portrait-2x.png) no-repeat; background-size:62px 12px; }
 #header-portrait h1 { font-size:12px; line-height:12px; }
@@ -24,9 +24,9 @@ h3 {font-size:14px; padding:0 0 9px 0;}
 .company-logo-portrait { position:absolute; top:7px; right:9px; height:20px; width:50%; background-size:contain; background-repeat:no-repeat; background-position:right top;  }
 #content {padding-bottom:18px;}
 #search {width:284px; height:18px; line-height:18px; font-size:14px; padding:0 18px 0 40px; color:#fff; border:none;background:none;outline:none;font-family:Helvetica,Arial;font-weight:bold;}
-#search.focus { color:#0071bc;}
-#nav { height:18px; padding:11px 0 11px 0; margin:0 0 18px 0;background:#0071bc url(images/search-icon.png) 18px 13px no-repeat;color:#fff;}
-#nav.focus { background:#F6ECCF url(images/search-icon.png) 18px -23px no-repeat; color:#0071bc;}
+#search.focus { color:#595861;}
+#nav { height:18px; padding:11px 0 11px 0; margin:0 0 18px 0;background:#595861 url(images/search-icon.png) 18px 13px no-repeat;color:#fff;}
+#nav.focus { background:#F6ECCF url(images/search-icon.png) 18px -23px no-repeat; color:#595861;}
 #description { padding:0 0 32px 0;}
 #copyright { position:fixed; right:0; bottom:0; width:306px; height:32px; line-height:32px; padding:0 18px 0 18px; background:#fff;}
 
@@ -45,23 +45,23 @@ a.email-link:hover {background-position:0 -48px;}
 #footer a.twitter {background-position:0 -12px;}
 #footer a.github {background-position:0 -24px;width:33px;height:14px;}
 
-div.infoBoxContent {position:relative;float:left;min-width:100px;padding:5px 10px 5px 10px;background:#0071bc;color:#fff;}
+div.infoBoxContent {position:relative;float:left;min-width:100px;padding:5px 10px 5px 10px;background:#595861;color:#fff;}
 div.infoBoxPointer {position:absolute;bottom:-9px;left:56px;width:10px;height:9px;background:url(images/info-box-pointer.png);}
 
 ul {margin:0;padding:0;}
-ul.features, a, a:visited {color:#0071bc;}
+ul.features, a, a:visited {color:#595861;}
 ul.features li a { display:block; min-height:18px; line-height:18px; }
 ul.properties {padding:0 0 18px 0;}
 ul.properties strong {font-weight:normal; color:#052743;}
 li { list-style-type:none; padding:0; margin:0; }
 
 ul.ui-menu li.ui-menu-item { border:none; padding:0; margin:0; border-bottom:1px solid #d9d9d9;}
-/* ul.ui-menu li.ui-menu-item a, ul.ui-menu li.ui-menu-item a.ui-state-hover, ul.ui-menu li.ui-menu-item  a.ui-state-focus { display:block; font-family:Helvetica, Arial; font-size:14px; color:#0071bc; background:#fff; min-height:26px; line-height:26px; padding:0 18px 0 18px; margin:0; border:none; border-left:none; border-right:none; cursor:pointer;}
-ul.ui-menu li.ui-menu-item a.ui-state-hover, ul.ui-menu li.ui-menu-item  a.ui-state-focus { color:#fff; background:#0071bc; }
-ul.ui-menu li.ui-menu-item a:hover { color:#fff; background:#0071bc;} */
-ul.ui-menu li.ui-menu-item div.ui-menu-item-wrapper { display:block; font-family:Helvetica, Arial; font-size:14px; color:#0071bc; background:#fff; min-height:26px; line-height:26px; padding:0 18px 0 18px; margin:0; border:none; border-left:none; border-right:none; cursor:pointer;}
-ul.ui-menu li.ui-menu-item div.ui-menu-item-wrapper.ui-state-active, ul.ui-menu li.ui-menu-item div.ui-menu-item-wrapper.ui-state-active { color:#fff; background:#0071bc; }
-ul.ui-menu li.ui-menu-item:hover { color:#fff; background:#0071bc;}
+/* ul.ui-menu li.ui-menu-item a, ul.ui-menu li.ui-menu-item a.ui-state-hover, ul.ui-menu li.ui-menu-item  a.ui-state-focus { display:block; font-family:Helvetica, Arial; font-size:14px; color:#595861; background:#fff; min-height:26px; line-height:26px; padding:0 18px 0 18px; margin:0; border:none; border-left:none; border-right:none; cursor:pointer;}
+ul.ui-menu li.ui-menu-item a.ui-state-hover, ul.ui-menu li.ui-menu-item  a.ui-state-focus { color:#fff; background:#595861; }
+ul.ui-menu li.ui-menu-item a:hover { color:#fff; background:#595861;} */
+ul.ui-menu li.ui-menu-item div.ui-menu-item-wrapper { display:block; font-family:Helvetica, Arial; font-size:14px; color:#595861; background:#fff; min-height:26px; line-height:26px; padding:0 18px 0 18px; margin:0; border:none; border-left:none; border-right:none; cursor:pointer;}
+ul.ui-menu li.ui-menu-item div.ui-menu-item-wrapper.ui-state-active, ul.ui-menu li.ui-menu-item div.ui-menu-item-wrapper.ui-state-active { color:#fff; background:#595861; }
+ul.ui-menu li.ui-menu-item:hover { color:#fff; background:#595861;}
 
 ul.ui-autocomplete { position:absolute; width:341px; border:none; padding:none; margin:none; }
 .ui-helper-hidden-accessible { display:none; }
@@ -156,4 +156,6 @@ html, body {
   padding: 5px;
   border: 1px solid #999;
 }
-
+.gm-fullscreen-control {
+  display:none;
+ }
